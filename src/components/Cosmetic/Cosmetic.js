@@ -6,7 +6,7 @@ const Cosmetic = (props) => {
     const { name, price, id } = props.cosmetic;
 
     const addToCart = (id) => {
-        console.log('added', id);
+        addToDb(id)
     }
 
 
